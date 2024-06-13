@@ -1,0 +1,24 @@
+{
+    "app": {
+        "name": "vacations",
+        "port": 8080,
+        "protocol": "http",
+        "host": "localhost",
+        "secret": "linkin-park-secret",
+        "jwt": {
+            "expires": "3h",
+            "secret": "guns-n-roses-secret"
+        },
+        "images": {
+            "path": "./savedImages"
+        }
+    },
+    "mysql": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "vacations",
+        "port": 3306,
+        "connectionLimit": 10
+    }
+}

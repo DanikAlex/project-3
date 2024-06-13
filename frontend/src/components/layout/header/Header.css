@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--background);
+    position: relative;
+    height: 70px;
+}
+
+.nav-left,
+.nav-right {
+    flex: 1;
+}
+
+.image-container {
+    width: 100;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+}
+
+.center-image {
+    width: 150px;
+    height: 100px;
+    background-color: var(--background);
+    border: 1px solid;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(-50%);
+}

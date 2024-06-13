@@ -1,0 +1,49 @@
+:root {
+    --primary: #7081c6;
+    --background: #078fff;
+    --secondary: #0590db;
+    --tranSecondary: #0048ff8d;
+    --font-primary: 'DM Sans', sans-serif;
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+}
+
+.HomeCards {
+    margin: 50px;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+}
+
+.Filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -30px;
+    margin-top: 40px;
+    color: white;
+}
+
+.Filters label {
+    margin-right: 10px;
+}
+
+.Filters button {
+    background-color: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Filters button:hover {
+    background-color: #024996;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Filters button:active {
+    transform: translateY(2px);
+}

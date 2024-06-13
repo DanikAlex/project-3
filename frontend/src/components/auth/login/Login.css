@@ -1,0 +1,128 @@
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.LoginContainer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 62.5rem;
+    margin-left: 450px;
+}
+
+.LoginForm {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--background);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.LoginForm h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.LoginForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.LoginForm input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.LoginForm button {
+    width: 80%;
+    padding: 10px;
+    background-color: var(--secondary);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0.625rem 0 0 1.875rem;
+}
+
+.LoginForm button:hover {
+    background-color: var(--tranSecondary);
+}
+
+/* Account Styles */
+.LoginForm .account {
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.LoginForm .link {
+    text-decoration: none;
+    font-weight: 540;
+    color: white;
+}
+
+.LoginForm .link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.LoginText {
+    width: 55%;
+    padding: 20px;
+    margin-left: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.LoginText h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: var(--secondary);
+}
+
+.LoginText p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Error Message Styles */
+.Login span {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 768px) {
+    .LoginContainer {
+        flex-direction: column;
+    }
+
+    .LoginForm,
+    .LoginText {
+        width: 100%;
+        margin: 0;
+    }
+
+    .LoginForm button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .LoginText {
+        margin-top: 20px;
+    }
+}

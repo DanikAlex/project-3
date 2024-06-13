@@ -1,0 +1,51 @@
+.Navigation {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navBar {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navBar h2 {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.roleName {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex; 
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 10px; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    font-size: 18px;
+}

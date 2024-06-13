@@ -1,0 +1,51 @@
+.SendCSV {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.CSV-Content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.CSV-Content h1 {
+    font-size: 4rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+.CSV-Content p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.CSV-Content button,
+.CSV-Content .back-btn {
+    font-size: 1rem;
+    background-color: var(--secondary);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin-left: 10px;
+}
+
+.CSV-Content button:hover,
+.CSV-Content .back-btn:hover {
+    background-color: var(--tranSecondary);
+}
+
+.CSV-Content button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.CSV-Content button a:hover {
+    text-decoration: underline;
+}
